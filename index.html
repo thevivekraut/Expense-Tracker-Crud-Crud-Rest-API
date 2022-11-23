@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="myForm">
+    Amount<input type="text" id="cost"><br>
+
+    <label for="selectList">Choose</label>
+    <select name="category" id="selectList">
+    <option value="Movies">Movies</option>
+    <option value="WebSeries">WebSeries</option>
+    <option value="Short Films">Short Films</option>
+    <option value="Videos">Videos</option>
+    <option value="Shorts">Shorts</option>
+    </select><br>
+
+    Describe<input type="text" id="movie"><br>
+    
+    <input type="submit" value="Add Expense" id="submit">
+
+    <ul id="ExpenseItem"></ul>
+</form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
