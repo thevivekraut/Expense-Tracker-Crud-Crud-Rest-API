@@ -1,0 +1,36 @@
+html *
+{
+   font-family: serif;
+}
+
+body {
+    background-color : hwb(51 75% 3%);
+}
+
+form {
+ margin-left: 20px;
+}
+
+h1{
+    color : #4CAF50;
+}
+
+input{
+    background-color: white;
+    color: black;
+    border: 1px solid #4CAF50;
+    padding-left : 5px;
+    margin: 10px;;
+}
+
+#submit,#ExpenseEditBtn, #ExpenseDeleteBtn {
+    border: none;
+    background: #4CAF50;
+    color: #fff;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+  }
